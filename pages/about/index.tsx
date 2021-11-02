@@ -8,7 +8,7 @@ export default function About() {
       <div className="_ill_header_about" data-bg="./assets/illustration/ill-product-header.png">
         <h2 className="title">Tentang Kami</h2>
         <span className="text">
-          Teknologi untuk Membangun Negeri, dari kami untuk Indonesia
+          Teknologi untuk Membangun Negeri, dari Kami untuk Indonesia
         </span>
       </div>
       <div className="container-lg">
