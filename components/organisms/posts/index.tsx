@@ -15,16 +15,14 @@ export default function Posts() {
             <PostItem
               title="Judul Blog, tips & trik atau berita broooooo"
               exerpt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              sapiente blanditiis ea alias debitis quibusdam placeat iure eveniet
-              enim quidem laborum iusto ipsa dolor..."
+              sapiente blanditiis ea alias debitis quibusdam..."
               slug="slug-bro-ini-namanya"
               thumbnail="https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1305&q=80"
             />
             <PostItem
               title="Judul Blog, tips & trik atau berita broooooo"
               exerpt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              sapiente blanditiis ea alias debitis quibusdam placeat iure eveniet
-              enim quidem laborum iusto ipsa dolor..."
+              sapiente blanditiis ea alias debitis quibusdam..."
               slug="slug-bro-ini-namanya"
               thumbnail="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1115&q=80"
             />

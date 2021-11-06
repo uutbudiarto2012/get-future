@@ -8,8 +8,8 @@ export default function Blog() {
   }, []);
   return (
     <>
-   <Navbar />
-   <Posts />
-   </>
-  )
+      <Navbar />
+      <Posts />
+    </>
+  );
 }

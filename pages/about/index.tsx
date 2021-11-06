@@ -16,7 +16,7 @@ export default function About() {
           <div className="row justify-content-center">
             <div className="col-lg-3">
               <div className="part-about">
-                <span>Team yang handal dan berpengalaman</span>
+                <span>Team yang handal dan Berpengalaman</span>
               </div>
             </div>
             <div className="col-lg-3">

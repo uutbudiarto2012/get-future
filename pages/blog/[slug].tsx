@@ -10,12 +10,12 @@ export default function Detail() {
         <div className="row">
           <div className="col-lg-6">
            <div className="title-wrapper">
-            <h1 className="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, nesciunt?</h1>
-            <span className="text d-block text-muted">Publish at 20-12-2024</span>
-            <span className="text d-block text-muted">Published by Widiayanto</span>
             <a className="link-light text-decoration-none" style={{ cursor:'pointer' }} onClick={()=>router.back()}>
               <i className="bi bi-chevron-left"></i> Kembali
             </a>
+            <h1 className="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, nesciunt?</h1>
+            <span className="text d-block text-muted">Publish at 20-12-2024</span>
+            <span className="text d-block text-muted">Published by Widiayanto</span>
            </div>
           </div>
           <div className="col-lg-6">

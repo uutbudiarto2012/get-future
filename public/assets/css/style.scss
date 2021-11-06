@@ -242,7 +242,7 @@ input[type=number] {
     ._logo_wrapper {
       display: flex;
       align-items: center;
-      width: 200px;
+      width: 300px;
       @media (min-width: 1200px) {
         width: 300px;
       }
@@ -405,11 +405,11 @@ input[type=number] {
       margin: 0;
       li {
         padding: 0;
-        margin: 20px 0;
+        margin: 10px 0;
         a {
           color: var(--main-dark);
           text-decoration: none;
-          font-size: 22px;
+          font-size: 16px;
         }
       }
     }
@@ -526,6 +526,7 @@ input[type=number] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
     .img-service {
       width: 200px;
       margin-bottom: 30px;
@@ -993,10 +994,16 @@ input[type=number] {
         font-weight: 600;
         color: var(--main-dark);
         margin-bottom: 50px;
+        @media (max-width:768px) {
+          font-size: 26px;
+        }
       }
       p{
         font-size: 18px;
         margin-bottom: 20px;
+        @media (max-width:768px) {
+          font-size: 14px;
+        }
       }
     }
     .form-contact{
@@ -1101,7 +1108,7 @@ input[type=number] {
   .title {
     font-weight: 700;
     font-family: "Acme", sans-serif;
-    font-size: 56px;
+    font-size: 46px;
     letter-spacing: 3px;
     color: var(--main-light);
     text-align: center;
@@ -1116,6 +1123,14 @@ input[type=number] {
 }
 ._about {
   // background-color: var(--main-dark);
+  .header-about{
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--main-dark);
+    @media (max-width:768px) {
+      font-size: 26px;
+    }
+  }
   .card-about {
     margin: -80px 0 50px 0;
     .part-about{
@@ -1143,12 +1158,15 @@ input[type=number] {
 ._part{
   .title{
     font-family: "Acme", sans-serif;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 600;
     letter-spacing: 2px;
     text-align: center;
     color: var(--main-dark);
     margin-bottom: 40px;
+    @media (max-width:768px) {
+      font-size: 26px;
+    }
   }
   .card-part-work{
     background-color: #efefff;
@@ -1169,11 +1187,18 @@ input[type=number] {
       .title{
         font-weight: 600;
         font-size: 26px;
+        @media (max-width:768px) {
+          font-size: 18px;
+        }
       }
     }
     .desc{
       font-weight: 300;
       margin-top: 10px;
+      font-size: 16px;
+      @media (max-width:768px) {
+        font-size: 14px;
+      }
     }
   }
   .skills{
@@ -1193,11 +1218,11 @@ input[type=number] {
     margin-top: -50px;
     margin-bottom: 50px;
     .blog-item{
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       .image-wrapper{
-        height: 200px;
+        height: 100px;
         display: flex;
         img{
           width: 100%;
@@ -1210,14 +1235,17 @@ input[type=number] {
         padding: 10px;
         .title{
           color: var(--main-dark);
+          font-size: 16px;
         }
         span{
           font-weight: 300;
+          font-size: 12px;
         }
         .view-demo{
           text-decoration: none;
           color: var(--main-dark);
           font-weight: 600;
+          font-size: 12px;
         }
       }
     }
@@ -1229,6 +1257,20 @@ input[type=number] {
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
+  @media (max-width:768px) {
+    .title-wrapper{
+      .title{
+        font-size: 26px;
+      }
+      .text{
+        font-size: 12px;
+      }
+    }
+    .content-body{
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
   .title-wrapper{
     position: sticky;
     top: 60px;
@@ -1306,10 +1348,25 @@ input[type=number] {
         height: 40px;
         width: 40px;
         color: var(--main-light);
-        // background-color: var(--main-light);
         margin-right: 6px;
         border-radius: 10px;
         border: 2px solid var(--main-light);
+      }
+    }
+  }
+  @media (max-width:578px) {
+    ul{
+      padding: 0;
+      li{
+        a{
+          &.contact {
+            font-size: 12px;
+          }
+          &.menu-link {
+            font-size: 12px;
+            font-weight: 600;
+          }
+        }
       }
     }
   }
@@ -1387,6 +1444,44 @@ input[type=number] {
         span {
           font-size: 14px;
           font-weight: 200;
+        }
+      }
+    }
+  }
+  ._blog{
+    .blog-wrapper{
+      margin-top: -50px;
+      margin-bottom: 50px;
+      .blog-item{
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        .image-wrapper{
+          height: 200px;
+          display: flex;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .desc{
+          background-color: var(--main-light);
+          padding: 10px;
+          .title{
+            color: var(--main-dark);
+            font-size: 22px;
+          }
+          span{
+            font-weight: 300;
+            font-size: 16px;
+          }
+          .view-demo{
+            text-decoration: none;
+            color: var(--main-dark);
+            font-weight: 600;
+            font-size: 16px;
+          }
         }
       }
     }
